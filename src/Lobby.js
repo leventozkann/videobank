@@ -21,7 +21,7 @@ const Lobby = ({
         />
       </div>
 
-      <div>
+      {/* <div>
         <label htmlFor="room">Room name:</label>
         <input
           type="text"
@@ -30,7 +30,7 @@ const Lobby = ({
           onChange={handleRoomNameChange}
           required
         />
-      </div>
+      </div> */}
 
       <button type="submit">Submit</button>
     </form>
